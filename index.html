@@ -6,19 +6,22 @@
     <title>Minha Agência de viagens</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./styles/main.css" />
 </head>
 <body>
     <main>
-// hero section
+<!-- hero -->
+ 
+<div class="container-hero">
+    <div class="container">       
     <div>
          <header> 
-       <span>Euro Viagens</span>
+      <span>Euro Viagens</span> 
        <nav>
            <ul>
             <li>
-                <a href="#">Inicio</a>
+                <a href="#">Início</a>
             </li>
             <li>
                <a href="#">Minhas Viagens</a>
@@ -29,84 +32,123 @@
             <li>
                 <a href="#">Concelhos</a>
             </li>
-            <li>
+            <li class="nav-item-cta">
                 <a href="#">Fale conosco</a>
             </li>
            </ul>
        </nav>
        </header>
+       </div>
+
        <section class="hero-content">
-        <h1>Conheça o melhor vilarejo da Europa</h1>
-        <p>Tenha uma ótima experiência com conforto, paisagens lindas e arquitetura e cultura históricas</p>
-        <button class="cta hero">Planeje sua viagem agora!</button>
+        <h1>Sua próxima viagem é aqui!</h1>
+        <p>Vilarejos europeus e cidades para explorar 
+sem pressa.</p>
+        <button class="cta hero">Explorar destinos</button>
        </section>
-       <img src="./assets/hero landing page.jpg" alt="Ilustracao hero" class="hero-img"> 
-    </div>
- // and hero section
- <section id="trip-me">
-    <h3>
-        Minhas Viagens
-    </h3>
-    <div>
-        <img src="./assets/image.png" alt="Aréa de lazer"
+       <img src="./assets/hero.jpg" alt="Ilustracao hero" class="hero-img"> 
+</div>
+</div>
+ <!-- and HERO-->
+</main>
+
+
+
+ <div class="container">
+  <section id="trip-me">
+    <h3>Minhas Viagens</h3>
+
+    <div class="trip-me-content">
+
+      <img 
+        src="./assets/image.png" 
+        alt="Área de lazer"
         width="515"
         height="541"
-        />
+      />
 
-        <div>
-           <p>
-A Euro Viagens ajuda você a planejar sua viagem para a Europa de forma simples e segura. Cuidamos do roteiro, passagens, hospedagem e orientações para que você viaje
-com mais tranquilidade.
-Com nosso serviço, você economiza tempo, evita erros comuns e recebe um planejamento de acordo com seu orçamento e estilo de viagem.
-Viaje com mais segurança, organização e menos preocupações.
-A Euro Viagens cuida do planejamento para você só aproveitar.
-           </p> 
-           <ul>
-            <li></li>
-            <li>Experiências Culturais</li>
-            <li>Conforto e tranquilidade</li>
-            <li>Tour Gastronômico</li>
-           </ul>
-        </div>
+      <div class="trip-text">
+        <p>
+          A Euro Viagens ajuda você a planejar sua viagem para a Europa de forma simples e segura.
+          Cuidamos do roteiro, passagens, hospedagem e orientações para que você viaje
+          com mais tranquilidade.
+
+          Com nosso serviço, você economiza tempo, evita erros comuns e recebe um planejamento
+          de acordo com seu orçamento e estilo de viagem.
+
+          Viaje com mais segurança, organização e menos preocupações.
+          A Euro Viagens cuida do planejamento para você só aproveitar.
+        </p>
+
+        <ul>
+          <li>Experiências Culturais</li>
+          <li>Conforto e tranquilidade</li>
+          <li>Tour Gastronômico</li>
+        </ul>
+      </div>
+
     </div>
-    </section>
-<section id="meet-us">
-<h3>Nos Encontre</h3>
-<p>Estamos disponíveis para te ajudar a planejar sua viagem para a Europa com praticidade e segurança.
-Entre em contato conosco pelos nossos canais e tire suas dúvidas, solicite um orçamento ou comece agora mesmo o seu planejamento de viagem.
+  </section>
+</div>
 
-Será um prazer te atender e transformar seu sonho em realidade.</p>
+
+
+
+<section id="meet-us">
+    <div class="container">
+<h3>Nos Encontre</h3>
+<p>Somos viajantes, sonhadores e exploradores urbanos. Acreditamos que os lugares mais marcantes não estão apenas nos mapas turísticos, mas nos detalhes que poucos percebem.
+Nosso trabalho é conectar você a cidades que contam histórias, pessoas que acolhem e experiências que ficam para sempre. Não vendemos viagens. Criamos encontros.</p>
+
 <ul>
-    <li>Atendimento personalizado</li>
-    <li>euroviagens@gmail.com</li>
-    <li>(00)0000-0000</li>
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>Atendimento personalizado</li>
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail-icon lucide-mail"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>euroviagens@gmail.com</li>
+    <li><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone-icon lucide-phone"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>(00)0000-0000</li>
 </ul>
+</div>
 </section>
 
-<section id="advice">
+
+
+
+
+< <section id="advice">
     <h3>Concelhos</h3>
     <p>Confira as nossas recomendações de passeios e atividades</p>
-    <div class="card">
-      <img
-      src="./assets/vista da montanha.jpg"
-      alt="por do sol da montanha"
+
+
+    <div class="advice-cards">
+        <div class="card">
+     <img
+      src="./assets/por-do-sol.jpg"
+      alt="vista-por-do-sol-da-montanha"
       />
 <span>Vista do por do sol da montanha</span>
+<p>Aproveite o fim da tarde em um dos pontos mais altos da região e 
+admire o pôr do sol sobre as montanhas</p>
     </div>
+
     <div class="card">
          <img
-      src="./assets/restaurantes.jpg"
-      alt="restaurantes europeus"
+      src="./assets/restaurantes-europeus.jpg"
+      alt="restaurantes-europeus-tradicionais"
       />
         <span>Restaurantes recomendados</span>
-    </di>
+        <P>Descubra restaurantes locais com pratos típicos da região. Experimente sabores tradicionais em ambientes
+             acolhedores e cheios de história.</P>
+    </div>
+
+
     <div class="card">
          <img
-      src="./assets/arquiteturas europeias.jpg"
-      alt="arquitetura europeia"
+      src="./assets/arquiteturas-de-pedras-e-ruas-de-pedras.jpg"
+      alt="arquitetura-de-casas-de-pedras-e-ruas-de-pedras"
       />
-        <span>Passeio para conhecer as arquiteturas antigas</span>
+        <span>Conhecendo as arquiteturas antigas</span>
+    <p>Caminhe pelas ruas históricas e observe construções que contam a história da cidade. Igrejas, casas de pedra e detalhes 
+        arquitetônicos tornam o passeio único.</p>
     </div>
+    </body>
 </section>
 </main>
 <footer>
